@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#040C1F"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".login_linear_layout">
+
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="263dp"
+        android:layout_marginTop="64dp"
+        app:srcCompat="@drawable/logotarea" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Iniciar Sesión"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="281dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bordetexto"
+        android:drawableLeft="?android:attr/fingerprintAuthDrawable"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="@font/abeezee"
+        android:hint="Usuario"
+        android:inputType="text"
+        android:textColorHint="#464646"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="281dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bordetexto"
+        android:drawableLeft="@drawable/contrasenachi"
+        android:ems="10"
+        android:fontFamily="@font/abeezee"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textColorHint="#464646" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/boton"
+        android:fontFamily="@font/allerta"
+        android:text="Ingresar"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>
+
